@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", serif;
+    line-height: 1.6;
+}
+
+body {
+    background-color: #873a49; 
+    color: #4d4d4d;
+    padding: 20px;
+}
+
+
+header {
+    background-color: #500035;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.personal-info {
+    overflow: hidden;
+    width: 50vw;
+    margin: 0 auto;
+}
+
+.perfil {
+    float: left; 
+    width: 200px; 
+    height: 200px;
+    margin-right: 50px; 
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: right 20%;
+}
+
+.info {
+    float: left; 
+    margin: 5vh;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 2em;
+    font-weight: bold;
+    color: #ffffff
+}
+
+header p {
+    margin-bottom: 5px;
+    color:white;
+}
+
+
+.experiencia-container {
+    overflow: hidden; 
+    margin-bottom: 20px;
+}
+
+
+.section {
+    background-color: #fff4f5; 
+    width: 65vw;
+    border-radius: 8px;
+    padding: 40px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    border: 1px solid #ffd9e1; 
+    float: left;
+}
+
+.section:first-child {
+    height: 80vh;
+}
+
+
+.section h2 {
+    margin-bottom: 15px;
+    color: #873a49;
+    font-size: 1.5em;
+}
+
+.section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #4d4d4d;
+}
+
+.section li {
+    margin-bottom: 10px;
+}
+
+article h3 {
+    margin-bottom: 5px;
+    color: #873a49;
+    font-size: 1.2em;
+}
+
+article p {
+    margin-bottom: 10px;
+    color: #4d4d4d;
+}
+
+
+.noticias {
+    background-color: #fff4f5; 
+    width: 30vw;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    border: 1px solid #ffd9e1; 
+    float: right;
+}
+
+.noticias-item {
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.noticias-item img {
+    float: left;
+    max-width: 150px;
+    margin-right: 15px;
+    border-radius: 8px;
+}
+
+.noticias-content {
+    overflow: hidden;
+}
+
+
+footer {
+    clear: both; 
+    text-align: center;
+    font-size: 0.9em;
+    color: #666666;
+    margin-top: 20px;
+    background-color: #ffe3ed;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ffd9e1;
+}
+
+
+button {
+    background-color: #ffcad4; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #de6fa1;
+    transform: scale(1.05);
+}
